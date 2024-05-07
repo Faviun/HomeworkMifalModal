@@ -1,0 +1,21 @@
+/* bg-[var(--yellow)] rounded-[30px] h-[60px] text-[var(--text-color)]
+ text-[14px] font-semibold */
+.button{
+    background-color: var(--yellow);
+    border-radius: 30px;
+    height: 60px;
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0 0 15px 3px rgba(255, 225, 91, 0.5);
+
+}
+.overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(31, 35, 38, 0.85); /* Затемнение с черным цветом */
+}
